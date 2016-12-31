@@ -3,8 +3,8 @@ subtitle: Content-centric blogging
 author: clay harmon
 #simple_search: http://google.com/search
 description: A Jekyll theme for content-rich sites
-#baseurl: "/Blog"
-url: "http://feyman-li.github.io"
+baseurl: "/site"
+#url: "http://feyman-li.github.io"
 name: tufte
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
