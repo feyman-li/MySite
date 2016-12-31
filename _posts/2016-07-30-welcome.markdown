@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Welcome"
+date:   2016-07-30
+categories: jekyll update
+---
+
+When want to speak something or some opions eveytime, I always fears myself to be a foollish man, and the others will laugh at me. But bad than nothing.It is better to start with a minimal creation and grow it as needed.This is a prototype which can be changs and evolution.
+
+---
+
+A scienctist is supposed to have a complete and thorough I of knowledge, at first hand, of some subjects and, therefore, is usually expected not to write on any topic of which he is not a life, master. This is regarded as a matter of noblesses oblige. For the present purpose I beg to renounce the noblesse, if any, and to be the freed of the ensuing obligation. 
+My excuse is as follows: The very name given to the highest institutions of learning reminds us, that from antiquity to and throughout many centuries the universal aspect has been the only one to be given full credit. But the spread, both in and width and depth, of the multifarious branches of knowledge by during the last hundred odd years has confronted us with queer dilemma. We feel clearly that we are only now beginning to acquire reliable material for welding together the sum total of all that is know into a whole; but, on the other hand, it has beccome next to impossible for a single mind fully to command more than a small specialized portion of it. I can see no other escape from the dilemma(lest our true who aim be lost for ever) than that some of us should venture to embark on a synthesis of facts and theories, albeit with second-hand and incomplete knowledge of some of them -and at the risk of making fools of ourselves. So much for my apology.
+
+*Erwin Schrodinger <<What is life?>> ,Preface*
+
+---
+
