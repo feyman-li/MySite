@@ -1,8 +1,8 @@
-title: Feyman's blog
+title: Feyman's site
 subtitle: Content-centric blogging
-author: clay harmon
+author: Feyman Li
 #simple_search: http://google.com/search
-description: A Jekyll theme for content-rich sites
+description: Feyman's site from tufre theme in Jekyll
 baseurl: "/MySite"
 url: "http://feyman-li.github.io"
 name: tufte
@@ -25,4 +25,4 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/Git/clayh53.github.com/
+  #destination: ~/Git/clayh53.github.com/
