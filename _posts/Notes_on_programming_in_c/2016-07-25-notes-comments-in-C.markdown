@@ -1,32 +1,30 @@
 ---
 layout: post
-title: Notes comments in C
+title: "Notes comments in C"
+categories: jekyll css
 ---
-
 ## Style
 Students are taught that it's important to comment everything, Professional programmers are often required to comment all their code. But the purpose of commenting can be lost in blindly following rules. Comments are meant to help the reader of a program. They do not help by saying things the code already plainly says, or by contradicting the code, or by distracting the reader with elaborate typographical displays. Comments should not only agree with code, They should support it. The best comments aid the understanding of a  program by briefly pointing out salient details or by providing a larger-scale view of the proceedings.
 
-*    **Reduce comments.**  As much as possible, write code that is easy to understand; the better you do this, the fewer comments you need. Good code needs fewer comments than bad code. For several reasons:
+* **Reduce comments.** As much as possible, write code that is easy to understand; the better you do this, the fewer comments you need. Good code needs fewer comments than bad code. For several reasons:
 
-	   * If the code is clear, and uses good type names and variable names, it should explain itself.
-	 
-       * Comments aren't checked by the compiler, so there is no guarantee they're right, especially after the code is modified.  A misleading comment can be very confusing.
-       * The issue of typography: comments clutter code.
+	* If the code is clear, and uses good type names and variable names, it should explain itself. 
+	* Comments aren't checked by the compiler, so there is no guarantee they're right, especially after the code is modified.  A misleading comment can be very confusing.
+	* The issue of typography: comments clutter code.
 
-*   **Don't belabor the obvious.**  Comments should add somethings that is not immediately evident from the code, or collect into one place information that is spread through the source.
+* **Don't belabor the obvious.**  Comments should add somethings that is not immediately evident from the code, or collect into one place information that is spread through the source.
 
-*   **Say what it is for, not just what it does.** Comments can be useful for functions, global variables,constant definitions,and anything else where a brief summary can aid understanding. Global variables have tendency to crop up intermittently throughout a program, a comment serve as a reminder to be referred to as needed. Sometimes code is genuinely difficult, perhaps because the algorithm is complicated or the data structures are intricate. In this case, a comment that points to a source of understanding can aid the reader. It also be valuable to suggest *why* particular decisions were made, explain *why* it needs to be here.
+* **Say what it is for, not just what it does.** Comments can be useful for functions, global variables,constant definitions,and anything else where a brief summary can aid understanding. Global variables have tendency to crop up intermittently throughout a program, a comment serve as a reminder to be referred to as needed. Sometimes code is genuinely difficult, perhaps because the algorithm is complicated or the data structures are intricate. In this case, a comment that points to a source of understanding can aid the reader. It also be valuable to suggest *why* particular decisions were made, explain *why* it needs to be here.
 
-*   **When change code, make sure the comments are still accurate.** 
+* **When change code, make sure the comments are still accurate.** 
 
 ----
 
 ## /* and // 
 There are two ways to write a comment in Standard C. 
 
-*    Traditionally, a comment begins with an occurrence of two characters "**/\***" and ends with the first subsequent occurrence of the two character "**\*/**". Comments may contain any number of characters and are always treated as whitespace.
-
-*    Beginning with C99, a comment also begins with the characters "**//**" and extends up to (but does not include) the next line break.
+* Traditionally, a comment begins with an occurrence of two characters "**/\***" and ends with the first subsequent occurrence of the two character "**\*/**". Comments may contain any number of characters and are always treated as whitespace.
+* Beginning with C99, a comment also begins with the characters "**//**" and extends up to (but does not include) the next line break.
 
 Comments are not recognized inside string or character constants or within other comments, for example:
 

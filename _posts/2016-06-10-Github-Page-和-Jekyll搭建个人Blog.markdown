@@ -2,7 +2,7 @@
 layout: post
 title:  "#GitHub Page 和 Jekyll 搭建个人Blog"
 date:   2016-06-10
-categories: jekyll update
+categories: jekyll css
 ---
 
 #GitHub Page 和 Jekyll 搭建个人Blog
