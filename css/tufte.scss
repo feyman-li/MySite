@@ -209,9 +209,9 @@ section { padding-top: 1rem;
           padding-bottom: 1rem; }
 
 
-ul,ol { width: 85%;
+ul,ol { width: 100%;
      -webkit-padding-start: 5%;
-     -webkit-padding-end: 5%;
+     -webkit-padding-end: 0%;
      list-style-type: none; }
 
 //li { padding: 0.5em 0; } //vertical padding on list items screws up vertical rhythym
@@ -289,7 +289,7 @@ pre, pre code, p pre code { width: 52.5%;
            padding-left: 2.5%;
            overflow-x: auto; }
 
-.fullwidth, li.listing div{ max-width: 90%; }
+.fullwidth, li.listing div{ max-width: 100%; }
 
 .full-width { .sidenote, .sidenote-number, .marginnote { display: none; } }
 
@@ -364,7 +364,7 @@ header > nav  a{
   vertical-align: baseline;
 }
 header > nav a img{
-  height: 5rem;
+  height: 10rem;
   position: relative;
   max-width: 100%;
   top:-1.5rem;

@@ -57,7 +57,7 @@ GitHub Page 和 Jekyll 搭建个人Blog
 
     这里的说明是基于Linux终端命令行格式.其他方法和系统更多的信息可以参考官方网站 https://pages.github.com 的说明.
 	
-###生成项目的站点
+### 生成项目的站点
 
 不同于用户和组织的站点，你需要创建一个名为"gh-pages"的"orphan"类型分支(不继承任何父分支的根分支),生成的站点会被部署到你的用户站点的子目录上，如 *username*.github.io/*projectname*（除非指定了一个自定义的域名）。
 
@@ -81,6 +81,7 @@ GitHub Page 和 Jekyll 搭建个人Blog
 更多信息参考访问https://help.github.com/articles/creating-project-pages-manually
 
 ## Jekyll的使用
+
 ### Jekyll 究竟是什么？
 
 Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。
