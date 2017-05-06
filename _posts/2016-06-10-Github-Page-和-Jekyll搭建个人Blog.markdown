@@ -1,15 +1,15 @@
---
+---
 layout: post
 title:  "GitHub Page 和 Jekyll 搭建个人Blog"
-date:   2016-06-10
+date:    2016-06-10
 categories: jekyll update
 ---
-
 GitHub Page 和 Jekyll 搭建个人Blog
 -------
 你也许不想使用别人指定的方式创建网站博客,你也许好好的体验DIY式的创建方法,例如能设计自己的网页布局,主题,格式,又或者你只是想看看Github page 和 jekyll是做什么用的.不过,你需要懂一点git的用法和网页生成的方式.
 
 ##1) GitHub Page 生成方法:
+
 ###什么是 GitHub Pages(Git for Websites)
 >Github Pages是面向用户、组织和项目开放的公共静态页面搭建托管服务，站点可以被免费托管在Github上,你可以选择使用Github Pages默认提供的域名github.io或者自定义域名来发布站点。
 
