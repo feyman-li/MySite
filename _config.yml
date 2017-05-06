@@ -12,7 +12,7 @@ permalink: /articles/:short_year/:title
 timezone: Asia/Shanghai
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
-paginate: 20
+#paginate: 20
 post:
   template: _post.txt
   extension: md
