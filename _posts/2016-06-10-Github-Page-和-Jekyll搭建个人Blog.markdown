@@ -8,9 +8,9 @@ GitHub Page 和 Jekyll 搭建个人Blog
 -------
 你也许不想使用别人指定的方式创建网站博客,你也许好好的体验DIY式的创建方法,例如能设计自己的网页布局,主题,格式,又或者你只是想看看Github page 和 jekyll是做什么用的.不过,你需要懂一点git的用法和网页生成的方式.
 
-##1) GitHub Page 生成方法:
+## 1) GitHub Page 生成方法:
 
-###什么是 GitHub Pages(Git for Websites)
+### 什么是 GitHub Pages(Git for Websites)
 >Github Pages是面向用户、组织和项目开放的公共静态页面搭建托管服务，站点可以被免费托管在Github上,你可以选择使用Github Pages默认提供的域名github.io或者自定义域名来发布站点。
 
 >Github Pages依靠Github上项目的某些特定分支(master/gh-pages)来工作。Github Pages分为两种基本类型：
@@ -18,7 +18,7 @@ GitHub Page 和 Jekyll 搭建个人Blog
 *  用户/组织的站点(User or organization site)
 *  项目的站点(Project site)。
 
-###生成用户和组织的站点
+### 生成用户和组织的站点
 
 >	用户和组织的站点被放置在一个特殊的专用仓库中，在该仓库中只存在 Github Pages 的相关文件。这个仓库必须根据用户/组织的名称来命名，仓库中master分支里的文件将会被用来生成 Github Pages站点,所以请确保你的文件储存在该分支上.
 
@@ -80,26 +80,26 @@ GitHub Page 和 Jekyll 搭建个人Blog
 
 更多信息参考访问https://help.github.com/articles/creating-project-pages-manually
 
-##Jekyll的使用
-###Jekyll 究竟是什么？
+## Jekyll的使用
+### Jekyll 究竟是什么？
 
 Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。
 
-##事先准备
+## 事先准备
 
 安装 Jekyll 相当简单，但是你得先做好一些准备工作 开始前你需要确保你在系统里已经有如下配置:	
 	Ruby
 	RubyGems
 安装 Jekyll 的最好方式就是使用 RubyGems. 你只需要打开终端输入以下命令就可以安装了：
 gem install jekyll (Ubuntun 下也可以使用:sudo apt-get install jekyll)的方式
-###以下是一个获取最简单 Jekyll 模板并生成静态页面的方法:
+### 以下是一个获取最简单 Jekyll 模板并生成静态页面的方法:
 	gem install jekyll
 	jekyll new myblog
 	cd myblog
 	jekyll serve
 然后前往http://localhost:4000就可以看到一个生成的本地网页.它有利于你通过修改快速查看生成的效果.
 
-##Jekyll 部署在Git Page上:
+## Jekyll 部署在Git Page上:
 项目的站点文件存放在项目本身仓库的 gh-pages分支中。该分支下的文件将会被 Jekyll 处理，你可以在生成Git项目站点后,在gh-pages分支下使用Jekyll生成网页,你可以通过修改_config.yml文件进行配置,如果想尽快在你的Git站点上生成类似于Jekyll本地生成的网页,你只需要将文件中"url"和"baseurl"配置为你自己的站点地址,类似于:
 
 >    url: "http://*username*.github.io" (the base hostname & protocol for your site)
