@@ -1,11 +1,11 @@
 --
 layout: post
-title:  "#GitHub Page 和 Jekyll 搭建个人Blog"
+title:  "GitHub Page 和 Jekyll 搭建个人Blog"
 date:   2016-06-10
-categories: jekyll css
+categories: jekyll update
 ---
 
-#GitHub Page 和 Jekyll 搭建个人Blog
+GitHub Page 和 Jekyll 搭建个人Blog
 -------
 你也许不想使用别人指定的方式创建网站博客,你也许好好的体验DIY式的创建方法,例如能设计自己的网页布局,主题,格式,又或者你只是想看看Github page 和 jekyll是做什么用的.不过,你需要懂一点git的用法和网页生成的方式.
 

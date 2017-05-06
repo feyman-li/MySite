@@ -1,7 +1,7 @@
 title: Feyman's site
 subtitle: Content-centric blogging
 author: Feyman Li
-#simple_search: http://google.com/search
+simple_search: https://www.baidu.com
 description: Feyman's site from tufre theme in Jekyll
 baseurl: "/MySite"
 url: "http://feyman-li.github.io"
@@ -9,9 +9,10 @@ name: tufte
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
-timezone: America/New_York
+timezone: Asia/Shanghai
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
+paginate: 20
 post:
   template: _post.txt
   extension: md
