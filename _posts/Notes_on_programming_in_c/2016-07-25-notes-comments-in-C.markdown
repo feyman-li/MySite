@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Notes comments in C"
-date: 2017-05-06 20:53:01
 categories: jekyll css
 ---
 ## Style
