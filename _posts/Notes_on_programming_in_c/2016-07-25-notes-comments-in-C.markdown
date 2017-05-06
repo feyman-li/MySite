@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Notes comments in C"
-categories: jekyll css
+categories: jekyll update
 ---
+
 ## Style
 Students are taught that it's important to comment everything, Professional programmers are often required to comment all their code. But the purpose of commenting can be lost in blindly following rules. Comments are meant to help the reader of a program. They do not help by saying things the code already plainly says, or by contradicting the code, or by distracting the reader with elaborate typographical displays. Comments should not only agree with code, They should support it. The best comments aid the understanding of a  program by briefly pointing out salient details or by providing a larger-scale view of the proceedings.<!--more-->
 
