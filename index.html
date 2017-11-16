@@ -1,17 +1,118 @@
----
-layout: full-width
-title: blog
-# Note that this index page uses a full-width layout!
----
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <h1 class="content-listing-header sans">Articles</h1>
+  <title>blog</title>
+  <meta name="description" content="Feyman's site from tufre theme in Jekyll">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/MySite/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/MySite/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="http://feyman-li.github.io/MySite/">
+
+  <link rel="alternate" type="application/rss+xml" title="Feyman's site" href="http://feyman-li.github.io/MySite/feed.xml" />
+</head>
+
+  <body class="full-width">
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/MySite/"><img class="badge" src="/MySite/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+  	
+		
+		    
+		      <a class="active" href="/MySite/" class="active">blog</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/MySite/page/">page</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/MySite/about/">About</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/MySite/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+    <article>
+        <h1 class="content-listing-header sans">Articles</h1>
   <ul class="content-listing ">
-    {% for post in site.posts %}      
+          
         <li class="listing">
           <hr class="slender">
-          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
-          <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
-          <div>{{ post.excerpt }}</div> 
+          <a href="/MySite/articles/16/welcome"><h3 class="contrast">Welcome</h3></a>
+          <br><span class="smaller">July 30, 2016</span>  <br/>
+          <div><p>When want to speak something or some opions eveytime, I always fears myself to be a foollish man, and the others will laugh at me. But bad than nothing.It is better to start with a minimal creation and grow it as needed.This is a prototype which can be changs and evolution.</p>
+
+</div> 
         </li>
-    {% endfor %}
+          
+        <li class="listing">
+          <hr class="slender">
+          <a href="/MySite/articles/16/notes-comments-in-C"><h3 class="contrast">Notes comments in C</h3></a>
+          <br><span class="smaller">July 25, 2016</span>  <br/>
+          <div><h2 id="style">Style</h2>
+<p>Students are taught that it’s important to comment everything, Professional programmers are often required to comment all their code. But the purpose of commenting can be lost in blindly following rules. Comments are meant to help the reader of a program. They do not help by saying things the code already plainly says, or by contradicting the code, or by distracting the reader with elaborate typographical displays. Comments should not only agree with code, They should support it. The best comments aid the understanding of a  program by briefly pointing out salient details or by providing a larger-scale view of the proceedings.</p>
+
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender">
+          <a href="/MySite/articles/16/Github-Page-%E5%92%8C-Jekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BABlog"><h3 class="contrast">GitHub Page 和 Jekyll 搭建个人Blog</h3></a>
+          <br><span class="smaller">June 10, 2016</span>  <br/>
+          <div><h2 id="github-page-和-jekyll-搭建个人blog">GitHub Page 和 Jekyll 搭建个人Blog</h2>
+<p>你也许不想使用别人指定的方式创建网站博客,你也许好好的体验DIY式的创建方法,例如能设计自己的网页布局,主题,格式,又或者你只是想看看Github page 和 jekyll是做什么用的.不过,你需要懂一点git的用法和网页生成的方式.</p>
+
+</div> 
+        </li>
+    
   </ul>
+    </article>
+    <span class="print-footer">blog - Feyman Li</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:feynmanli@icloud.com"><span class="icon-mail"></span></a></li>    
+    
+      <li>
+        <a href="//github.com/feyman-li/MySite"><span class="icon-github"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2017 &nbsp;&nbsp;FEYMAN LI</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Content-centric blogging </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>
